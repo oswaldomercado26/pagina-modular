@@ -143,7 +143,7 @@ $tim = date("H:i:s");
             ?>
             <div class="menu">
                 <ul class="list">
-                    <li class="header">MENU NAVEGACION/li>
+                    <li class="header">MENU NAVEGACION</li>
                     <li class="active open"><a href="doctoraccount.php"><i
                                 class="zmdi zmdi-home"></i><span>Tablero</span></a></li>
 
@@ -185,7 +185,7 @@ $tim = date("H:i:s");
 
 
                     <li> <a href="javascript:void(0);" class="menu-toggle"><i
-                                class="zmdi zmdi-settings-square"></i><span>Servi/span> </a>
+                                class="zmdi zmdi-settings-square"></i><span>Servicios</span> </a>
                         <ul class="ml-menu">
                             <li><a href="viewtreatmentrecord.php">Ver Registros de Tratamiento</a></li>
                             <li><a href="viewtreatment.php">Ver Tratamiento</a></li>

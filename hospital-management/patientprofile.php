@@ -183,7 +183,7 @@ if(isset($_SESSION[patientid]))
 
                             
                             <div class="col-sm-12">                                
-                                <input type="submit" class="btn btn-raised g-bg-cyan" name="submit" id="submit" value="Submit" />
+                                <input type="submit" class="btn btn-raised g-bg-cyan" name="submit" id="submit" value="Enviar" />
                             </div>
                         </div>
                     </div>

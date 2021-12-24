@@ -51,7 +51,7 @@ if(isset($_GET[delid]))
         <td align='center'>Status - $rs[status] <br>";
         if(isset($_SESSION[adminid]))
         {
-          echo "<a href='patient.php?editid=$rs[patientid]' class='btn btn-sm btn-raised bg-green'>Edit</a><a href='viewpatient.php?delid=$rs[patientid]' class='btn btn-sm btn-raised bg-blush'>Eliminar</a> <hr>
+          echo "<a href='patient.php?editid=$rs[patientid]' class='btn btn-sm btn-raised bg-green'>Editar</a><a href='viewpatient.php?delid=$rs[patientid]' class='btn btn-sm btn-raised bg-blush'>Eliminar</a> <hr>
           <a href='patientreport.php?patientid=$rs[patientid]' class='btn btn-sm btn-raised bg-cyan'>Ver Reporte</a>";
         }
         echo "</td></tr>";

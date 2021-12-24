@@ -106,7 +106,7 @@ if(isset($_GET[editid]))
 						</div>
 					</div>
 					<div class="col-sm-12">
-						<input type="submit" name="submit" id="submit" value="Submit" class="btn btn-raised" />
+						<input type="submit" name="submit" id="submit" value="Enviar" class="btn btn-raised" />
 					</div>
 
 				</form>

@@ -50,18 +50,18 @@ if(isset($_GET[editid]))
       <tbody>
         <tr>
           <td width="34%">Nombre departamento</td>
-          <td width="66%"><input placeholder=" Enter Here " class="form-control" type="text" name="departmentname" id="departmentname" value="<?php echo $rsedit[departmentname]; ?>" /></td>
+          <td width="66%"><input placeholder=" Ingresar datos " class="form-control" type="text" name="departmentname" id="departmentname" value="<?php echo $rsedit[departmentname]; ?>" /></td>
         </tr>
         <tr>
           <td>Descripcion</td>
-          <td><textarea placeholder=" Enter Here " class="form-control no-resize" name="textarea" id="textarea" cols="45" rows="5"><?php echo $rsedit[description] ; ?></textarea></td>
+          <td><textarea placeholder=" Ingresar datos " class="form-control no-resize" name="textarea" id="textarea" cols="45" rows="5"><?php echo $rsedit[description] ; ?></textarea></td>
         </tr>
         <tr>
           <td>Estatus</td>
           <td> <select name="select" id="select" class="form-control show-tick">
             <option value="">Seleccionar</option>
             <?php
-		  $arr = array("Active","Inactive");
+		  $arr = array("Activo","Inactivo");
 		  foreach($arr as $val)
 		  {
 			  if($val == $rsedit[status])
@@ -77,7 +77,7 @@ if(isset($_GET[editid]))
             </select></td>
         </tr>
         <tr>
-          <td colspan="2" align="center"><input class="btn btn-default" type="submit" name="submit" id="submit" value="Submit" /></td>
+          <td colspan="2" align="center"><input class="btn btn-default" type="submit" name="submit" id="submit" value="Enviar" /></td>
         </tr>
       </tbody>
     </table>

@@ -198,7 +198,7 @@ if(isset($_GET[editid]))
 
 
 
-            <input class="btn btn-default" type="submit" name="submit" id="submit" value="Submit" />
+            <input class="btn btn-default" type="submit" name="submit" id="submit" value="Enviar" />
 
 
 

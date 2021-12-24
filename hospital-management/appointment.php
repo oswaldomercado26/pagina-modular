@@ -76,7 +76,7 @@ if(isset($_GET[editid]))
                                       {
                                           ?>
                                         <select name="select4" id="select4" class=" form-control show-tick">
-                                            <option value="">Select Patient</option>
+                                            <option value="">Seleccionar Paciente</option>
                                             <?php
                                             $sqlpatient= "SELECT * FROM patient WHERE status='Active'";
                                             $qsqlpatient = mysqli_query($con,$sqlpatient);
@@ -105,7 +105,7 @@ if(isset($_GET[editid]))
                                 <div class="form-group">
                                     <div class="form-line">
                                         <select name="select5" id="select5" class=" form-control show-tick">
-                                            <option value="">Select</option>
+                                            <option value="">Seleccionar</option>
                                             <?php
                                     $sqldepartment= "SELECT * FROM department WHERE status='Active'";
                                     $qsqldepartment = mysqli_query($con,$sqldepartment);
@@ -213,7 +213,7 @@ if(isset($_GET[editid]))
                             <div class="col-sm-12">
 
                                 <input type="submit" class="btn btn-raised g-bg-cyan" name="submit" id="submit"
-                                    value="Submit" />
+                                    value="Enviar" />
 
                             </div>
                         </div>

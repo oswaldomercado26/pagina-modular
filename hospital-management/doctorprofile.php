@@ -130,7 +130,7 @@ if(isset($_SESSION[doctorid]))
                                 </div>
                             </div>
 
-                            <input class="btn btn-raised" type="submit" name="submit" id="submit" value="Submit" />
+                            <input class="btn btn-raised" type="submit" name="submit" id="submit" value="Enviar" />
                         </div>
                     </div>
 

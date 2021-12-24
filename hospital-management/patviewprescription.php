@@ -69,7 +69,7 @@ if(isset($_GET[delid]))
               <td>Medicina</td>
               <td>Costo</td>
               <td>Unidades</td>
-              <td>Docis</td>
+              <td>Dosis</td>
             </tr>
           </thead>
           <tbody>
@@ -91,7 +91,7 @@ if(isset($_GET[delid]))
             
           </tbody>
         </table>
-        <input type="submit" class="btn btn-lg" name="print" id="print" value="Print" onclick="myFunction()"/>
+        <input type="submit" class="btn btn-lg" name="print" id="print" value="Imprimir" onclick="myFunction()"/>
       </div>    
       
       <?php

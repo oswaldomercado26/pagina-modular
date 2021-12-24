@@ -50,7 +50,7 @@ $rspatientappointment = mysqli_fetch_array($qsqlpatientappointment);
                 <!-- Tab panes -->
                 <div class="tab-content" style="padding: 10px">
                     <div role="tabpanel" class="tab-pane animated flipInX active" id="home_animation_1"
-                        aria-expanded="true"> <b>Registration History</b>
+                        aria-expanded="true"> <b>Historial de registro</b>
                         <h3>Estas con nosotros de <?php echo $rspatient[admissiondate]; ?>
                             <?php echo $rspatient[admissiontime]; ?></h3>
                     </div>
